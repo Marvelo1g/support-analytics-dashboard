@@ -1,0 +1,608 @@
+{
+  "tickets": [
+    {
+      "id": 19,
+      "customer": "Sade Balogun",
+      "subject": "Trial period question",
+      "status": "open",
+      "created_at": "2026-09-01T00:40:04.904Z",
+      "first_response_at": "2026-09-01T07:47:32.637Z",
+      "resolved_at": null,
+      "messages": [
+        {
+          "sender": "customer",
+          "text": "Hi, I'm having an issue: trial period question. Can you help?",
+          "timestamp": "2026-09-01T00:40:04.904Z"
+        },
+        {
+          "sender": "agent",
+          "text": "Thanks for reaching out, we're looking into this right now.",
+          "timestamp": "2026-09-01T07:47:32.637Z"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "customer": "Bayo Fashola",
+      "subject": "Search function returns no results",
+      "status": "closed",
+      "created_at": "2026-08-31T08:26:23.577Z",
+      "first_response_at": "2026-08-31T10:13:14.862Z",
+      "resolved_at": "2026-09-01T00:02:59.362Z",
+      "messages": [
+        {
+          "sender": "customer",
+          "text": "Hi, I'm having an issue: search function returns no results. Can you help?",
+          "timestamp": "2026-08-31T08:26:23.577Z"
+        },
+        {
+          "sender": "agent",
+          "text": "Thanks for reaching out, we're looking into this right now.",
+          "timestamp": "2026-08-31T10:13:14.862Z"
+        },
+        {
+          "sender": "agent",
+          "text": "This has been resolved on our end. Let us know if you need anything else.",
+          "timestamp": "2026-09-01T00:02:59.362Z"
+        },
+        {
+          "sender": "customer",
+          "text": "Thank you, that fixed it!",
+          "timestamp": "2026-09-01T00:02:59.362Z"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "customer": "Tunde Bello",
+      "subject": "Feature request: dark mode",
+      "status": "open",
+      "created_at": "2026-08-29T22:59:35.200Z",
+      "first_response_at": "2026-08-30T15:47:37.735Z",
+      "resolved_at": null,
+      "messages": [
+        {
+          "sender": "customer",
+          "text": "Hi, I'm having an issue: feature request: dark mode. Can you help?",
+          "timestamp": "2026-08-29T22:59:35.200Z"
+        },
+        {
+          "sender": "agent",
+          "text": "Thanks for reaching out, we're looking into this right now.",
+          "timestamp": "2026-08-30T15:47:37.735Z"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "customer": "Blessing Eze",
+      "subject": "Export to CSV not working",
+      "status": "closed",
+      "created_at": "2026-08-29T19:02:00.123Z",
+      "first_response_at": "2026-08-29T23:16:19.017Z",
+      "resolved_at": "2026-08-30T00:01:35.868Z",
+      "messages": [
+        {
+          "sender": "customer",
+          "text": "Hi, I'm having an issue: export to csv not working. Can you help?",
+          "timestamp": "2026-08-29T19:02:00.123Z"
+        },
+        {
+          "sender": "agent",
+          "text": "Thanks for reaching out, we're looking into this right now.",
+          "timestamp": "2026-08-29T23:16:19.017Z"
+        },
+        {
+          "sender": "agent",
+          "text": "This has been resolved on our end. Let us know if you need anything else.",
+          "timestamp": "2026-08-30T00:01:35.868Z"
+        },
+        {
+          "sender": "customer",
+          "text": "Thank you, that fixed it!",
+          "timestamp": "2026-08-30T00:01:35.868Z"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "customer": "Segun Olawale",
+      "subject": "Slow loading on dashboard",
+      "status": "resolved",
+      "created_at": "2026-08-28T20:49:27.423Z",
+      "first_response_at": "2026-08-29T15:45:16.083Z",
+      "resolved_at": "2026-08-30T02:05:14.375Z",
+      "messages": [
+        {
+          "sender": "customer",
+          "text": "Hi, I'm having an issue: slow loading on dashboard. Can you help?",
+          "timestamp": "2026-08-28T20:49:27.423Z"
+        },
+        {
+          "sender": "agent",
+          "text": "Thanks for reaching out, we're looking into this right now.",
+          "timestamp": "2026-08-29T15:45:16.083Z"
+        },
+        {
+          "sender": "agent",
+          "text": "This has been resolved on our end. Let us know if you need anything else.",
+          "timestamp": "2026-08-30T02:05:14.375Z"
+        },
+        {
+          "sender": "customer",
+          "text": "Thank you, that fixed it!",
+          "timestamp": "2026-08-30T02:05:14.375Z"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "customer": "Ada Chukwu",
+      "subject": "Unable to reset my password",
+      "status": "closed",
+      "created_at": "2026-08-26T14:04:26.080Z",
+      "first_response_at": "2026-08-26T23:17:07.745Z",
+      "resolved_at": "2026-08-28T09:47:51.166Z",
+      "messages": [
+        {
+          "sender": "customer",
+          "text": "Hi, I'm having an issue: unable to reset my password. Can you help?",
+          "timestamp": "2026-08-26T14:04:26.080Z"
+        },
+        {
+          "sender": "agent",
+          "text": "Thanks for reaching out, we're looking into this right now.",
+          "timestamp": "2026-08-26T23:17:07.745Z"
+        },
+        {
+          "sender": "agent",
+          "text": "This has been resolved on our end. Let us know if you need anything else.",
+          "timestamp": "2026-08-28T09:47:51.166Z"
+        },
+        {
+          "sender": "customer",
+          "text": "Thank you, that fixed it!",
+          "timestamp": "2026-08-28T09:47:51.166Z"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "customer": "Ike Nnamdi",
+      "subject": "How to upgrade my plan",
+      "status": "open",
+      "created_at": "2026-08-25T15:38:42.009Z",
+      "first_response_at": "2026-08-26T10:09:12.999Z",
+      "resolved_at": null,
+      "messages": [
+        {
+          "sender": "customer",
+          "text": "Hi, I'm having an issue: how to upgrade my plan. Can you help?",
+          "timestamp": "2026-08-25T15:38:42.009Z"
+        },
+        {
+          "sender": "agent",
+          "text": "Thanks for reaching out, we're looking into this right now.",
+          "timestamp": "2026-08-26T10:09:12.999Z"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "customer": "Yusuf Aliyu",
+      "subject": "Integration with Google Calendar broken",
+      "status": "pending",
+      "created_at": "2026-08-24T11:01:01.219Z",
+      "first_response_at": "2026-08-24T11:58:30.431Z",
+      "resolved_at": null,
+      "messages": [
+        {
+          "sender": "customer",
+          "text": "Hi, I'm having an issue: integration with google calendar broken. Can you help?",
+          "timestamp": "2026-08-24T11:01:01.219Z"
+        },
+        {
+          "sender": "agent",
+          "text": "Thanks for reaching out, we're looking into this right now.",
+          "timestamp": "2026-08-24T11:58:30.431Z"
+        },
+        {
+          "sender": "customer",
+          "text": "Just following up on this, any update?",
+          "timestamp": "2026-08-24T16:58:30.431Z"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "customer": "Ada Chukwu",
+      "subject": "Unable to reset my password",
+      "status": "open",
+      "created_at": "2026-08-24T08:26:36.522Z",
+      "first_response_at": "2026-08-24T16:37:58.662Z",
+      "resolved_at": null,
+      "messages": [
+        {
+          "sender": "customer",
+          "text": "Hi, I'm having an issue: unable to reset my password. Can you help?",
+          "timestamp": "2026-08-24T08:26:36.522Z"
+        },
+        {
+          "sender": "agent",
+          "text": "Thanks for reaching out, we're looking into this right now.",
+          "timestamp": "2026-08-24T16:37:58.662Z"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "customer": "Chidi Nwosu",
+      "subject": "How do I cancel my subscription",
+      "status": "open",
+      "created_at": "2026-08-23T18:27:48.069Z",
+      "first_response_at": "2026-08-24T05:03:07.812Z",
+      "resolved_at": null,
+      "messages": [
+        {
+          "sender": "customer",
+          "text": "Hi, I'm having an issue: how do i cancel my subscription. Can you help?",
+          "timestamp": "2026-08-23T18:27:48.069Z"
+        },
+        {
+          "sender": "agent",
+          "text": "Thanks for reaching out, we're looking into this right now.",
+          "timestamp": "2026-08-24T05:03:07.812Z"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "customer": "Ify Okafor",
+      "subject": "Cannot upload profile photo",
+      "status": "pending",
+      "created_at": "2026-08-22T02:34:40.927Z",
+      "first_response_at": "2026-08-22T10:44:28.177Z",
+      "resolved_at": null,
+      "messages": [
+        {
+          "sender": "customer",
+          "text": "Hi, I'm having an issue: cannot upload profile photo. Can you help?",
+          "timestamp": "2026-08-22T02:34:40.927Z"
+        },
+        {
+          "sender": "agent",
+          "text": "Thanks for reaching out, we're looking into this right now.",
+          "timestamp": "2026-08-22T10:44:28.177Z"
+        },
+        {
+          "sender": "customer",
+          "text": "Just following up on this, any update?",
+          "timestamp": "2026-08-22T15:44:28.177Z"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "customer": "Lola Adeniran",
+      "subject": "Cannot add a new team member",
+      "status": "resolved",
+      "created_at": "2026-08-21T14:26:43.258Z",
+      "first_response_at": "2026-08-21T22:45:03.524Z",
+      "resolved_at": "2026-08-22T00:48:07.813Z",
+      "messages": [
+        {
+          "sender": "customer",
+          "text": "Hi, I'm having an issue: cannot add a new team member. Can you help?",
+          "timestamp": "2026-08-21T14:26:43.258Z"
+        },
+        {
+          "sender": "agent",
+          "text": "Thanks for reaching out, we're looking into this right now.",
+          "timestamp": "2026-08-21T22:45:03.524Z"
+        },
+        {
+          "sender": "agent",
+          "text": "This has been resolved on our end. Let us know if you need anything else.",
+          "timestamp": "2026-08-22T00:48:07.813Z"
+        },
+        {
+          "sender": "customer",
+          "text": "Thank you, that fixed it!",
+          "timestamp": "2026-08-22T00:48:07.813Z"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "customer": "David Musa",
+      "subject": "Notifications not coming through",
+      "status": "open",
+      "created_at": "2026-08-21T06:22:46.979Z",
+      "first_response_at": "2026-08-21T07:38:15.344Z",
+      "resolved_at": null,
+      "messages": [
+        {
+          "sender": "customer",
+          "text": "Hi, I'm having an issue: notifications not coming through. Can you help?",
+          "timestamp": "2026-08-21T06:22:46.979Z"
+        },
+        {
+          "sender": "agent",
+          "text": "Thanks for reaching out, we're looking into this right now.",
+          "timestamp": "2026-08-21T07:38:15.344Z"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "customer": "Chinwe Igwe",
+      "subject": "Dashboard chart showing wrong data",
+      "status": "open",
+      "created_at": "2026-08-19T19:13:01.451Z",
+      "first_response_at": "2026-08-20T07:19:38.243Z",
+      "resolved_at": null,
+      "messages": [
+        {
+          "sender": "customer",
+          "text": "Hi, I'm having an issue: dashboard chart showing wrong data. Can you help?",
+          "timestamp": "2026-08-19T19:13:01.451Z"
+        },
+        {
+          "sender": "agent",
+          "text": "Thanks for reaching out, we're looking into this right now.",
+          "timestamp": "2026-08-20T07:19:38.243Z"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "customer": "Grace Adeyemi",
+      "subject": "App crashes on login",
+      "status": "resolved",
+      "created_at": "2026-08-19T10:13:02.849Z",
+      "first_response_at": "2026-08-19T21:44:07.747Z",
+      "resolved_at": "2026-08-20T06:59:28.613Z",
+      "messages": [
+        {
+          "sender": "customer",
+          "text": "Hi, I'm having an issue: app crashes on login. Can you help?",
+          "timestamp": "2026-08-19T10:13:02.849Z"
+        },
+        {
+          "sender": "agent",
+          "text": "Thanks for reaching out, we're looking into this right now.",
+          "timestamp": "2026-08-19T21:44:07.747Z"
+        },
+        {
+          "sender": "agent",
+          "text": "This has been resolved on our end. Let us know if you need anything else.",
+          "timestamp": "2026-08-20T06:59:28.613Z"
+        },
+        {
+          "sender": "customer",
+          "text": "Thank you, that fixed it!",
+          "timestamp": "2026-08-20T06:59:28.613Z"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "customer": "Grace Adeyemi",
+      "subject": "App crashes on login",
+      "status": "open",
+      "created_at": "2026-08-19T08:50:22.782Z",
+      "first_response_at": "2026-08-20T03:46:48.540Z",
+      "resolved_at": null,
+      "messages": [
+        {
+          "sender": "customer",
+          "text": "Hi, I'm having an issue: app crashes on login. Can you help?",
+          "timestamp": "2026-08-19T08:50:22.782Z"
+        },
+        {
+          "sender": "agent",
+          "text": "Thanks for reaching out, we're looking into this right now.",
+          "timestamp": "2026-08-20T03:46:48.540Z"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "customer": "Emeka Okoro",
+      "subject": "Refund request for duplicate charge",
+      "status": "resolved",
+      "created_at": "2026-08-18T08:01:08.258Z",
+      "first_response_at": "2026-08-18T19:45:24.763Z",
+      "resolved_at": "2026-08-19T17:56:49.011Z",
+      "messages": [
+        {
+          "sender": "customer",
+          "text": "Hi, I'm having an issue: refund request for duplicate charge. Can you help?",
+          "timestamp": "2026-08-18T08:01:08.258Z"
+        },
+        {
+          "sender": "agent",
+          "text": "Thanks for reaching out, we're looking into this right now.",
+          "timestamp": "2026-08-18T19:45:24.763Z"
+        },
+        {
+          "sender": "agent",
+          "text": "This has been resolved on our end. Let us know if you need anything else.",
+          "timestamp": "2026-08-19T17:56:49.011Z"
+        },
+        {
+          "sender": "customer",
+          "text": "Thank you, that fixed it!",
+          "timestamp": "2026-08-19T17:56:49.011Z"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "customer": "Kemi Adebayo",
+      "subject": "Payment not reflecting",
+      "status": "closed",
+      "created_at": "2026-08-15T13:11:33.204Z",
+      "first_response_at": "2026-08-16T06:47:10.888Z",
+      "resolved_at": "2026-08-17T06:41:21.193Z",
+      "messages": [
+        {
+          "sender": "customer",
+          "text": "Hi, I'm having an issue: payment not reflecting. Can you help?",
+          "timestamp": "2026-08-15T13:11:33.204Z"
+        },
+        {
+          "sender": "agent",
+          "text": "Thanks for reaching out, we're looking into this right now.",
+          "timestamp": "2026-08-16T06:47:10.888Z"
+        },
+        {
+          "sender": "agent",
+          "text": "This has been resolved on our end. Let us know if you need anything else.",
+          "timestamp": "2026-08-17T06:41:21.193Z"
+        },
+        {
+          "sender": "customer",
+          "text": "Thank you, that fixed it!",
+          "timestamp": "2026-08-17T06:41:21.193Z"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "customer": "Funke Ajayi",
+      "subject": "Mobile app keeps logging me out",
+      "status": "open",
+      "created_at": "2026-08-14T21:15:43.588Z",
+      "first_response_at": "2026-08-15T08:12:17.157Z",
+      "resolved_at": null,
+      "messages": [
+        {
+          "sender": "customer",
+          "text": "Hi, I'm having an issue: mobile app keeps logging me out. Can you help?",
+          "timestamp": "2026-08-14T21:15:43.588Z"
+        },
+        {
+          "sender": "agent",
+          "text": "Thanks for reaching out, we're looking into this right now.",
+          "timestamp": "2026-08-15T08:12:17.157Z"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "customer": "Tunde Bello",
+      "subject": "Feature request: dark mode",
+      "status": "open",
+      "created_at": "2026-08-14T20:45:18.887Z",
+      "first_response_at": "2026-08-15T03:27:25.111Z",
+      "resolved_at": null,
+      "messages": [
+        {
+          "sender": "customer",
+          "text": "Hi, I'm having an issue: feature request: dark mode. Can you help?",
+          "timestamp": "2026-08-14T20:45:18.887Z"
+        },
+        {
+          "sender": "agent",
+          "text": "Thanks for reaching out, we're looking into this right now.",
+          "timestamp": "2026-08-15T03:27:25.111Z"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "customer": "Ngozi Uche",
+      "subject": "Need invoice for last payment",
+      "status": "pending",
+      "created_at": "2026-08-14T17:18:18.726Z",
+      "first_response_at": "2026-08-14T22:42:21.332Z",
+      "resolved_at": null,
+      "messages": [
+        {
+          "sender": "customer",
+          "text": "Hi, I'm having an issue: need invoice for last payment. Can you help?",
+          "timestamp": "2026-08-14T17:18:18.726Z"
+        },
+        {
+          "sender": "agent",
+          "text": "Thanks for reaching out, we're looking into this right now.",
+          "timestamp": "2026-08-14T22:42:21.332Z"
+        },
+        {
+          "sender": "customer",
+          "text": "Just following up on this, any update?",
+          "timestamp": "2026-08-15T03:42:21.332Z"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "customer": "Femi Ogunleye",
+      "subject": "Billing charged twice this month",
+      "status": "open",
+      "created_at": "2026-08-14T04:01:24.530Z",
+      "first_response_at": "2026-08-14T18:10:33.726Z",
+      "resolved_at": null,
+      "messages": [
+        {
+          "sender": "customer",
+          "text": "Hi, I'm having an issue: billing charged twice this month. Can you help?",
+          "timestamp": "2026-08-14T04:01:24.530Z"
+        },
+        {
+          "sender": "agent",
+          "text": "Thanks for reaching out, we're looking into this right now.",
+          "timestamp": "2026-08-14T18:10:33.726Z"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "customer": "Femi Ogunleye",
+      "subject": "Billing charged twice this month",
+      "status": "open",
+      "created_at": "2026-08-13T18:25:43.443Z",
+      "first_response_at": "2026-08-13T23:14:23.999Z",
+      "resolved_at": null,
+      "messages": [
+        {
+          "sender": "customer",
+          "text": "Hi, I'm having an issue: billing charged twice this month. Can you help?",
+          "timestamp": "2026-08-13T18:25:43.443Z"
+        },
+        {
+          "sender": "agent",
+          "text": "Thanks for reaching out, we're looking into this right now.",
+          "timestamp": "2026-08-13T23:14:23.999Z"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "customer": "Amaka Obi",
+      "subject": "Account locked after 3 attempts",
+      "status": "pending",
+      "created_at": "2026-08-13T11:19:17.597Z",
+      "first_response_at": "2026-08-13T23:28:45.877Z",
+      "resolved_at": null,
+      "messages": [
+        {
+          "sender": "customer",
+          "text": "Hi, I'm having an issue: account locked after 3 attempts. Can you help?",
+          "timestamp": "2026-08-13T11:19:17.597Z"
+        },
+        {
+          "sender": "agent",
+          "text": "Thanks for reaching out, we're looking into this right now.",
+          "timestamp": "2026-08-13T23:28:45.877Z"
+        },
+        {
+          "sender": "customer",
+          "text": "Just following up on this, any update?",
+          "timestamp": "2026-08-14T04:28:45.877Z"
+        }
+      ]
+    }
+  ]
+}
