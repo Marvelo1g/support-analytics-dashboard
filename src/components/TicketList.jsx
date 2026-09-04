@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Search } from 'lucide-react'
 import { useTickets } from '../hooks/useTickets'
+import TicketDetail from './TicketDetail'
 
 const statusStyles = {
   open: 'bg-status-open/10 text-status-open',
@@ -21,6 +22,7 @@ function TicketList() {
   const { tickets, loading, error } = useTickets()
   const [searchTerm, setSearchTerm] = useState('')
   const [statusFilter, setStatusFilter] = useState('all')
+  const [selectedTicket, setSelectedTicket] = useState(null)
 
   if (loading) {
     return (
@@ -94,7 +96,11 @@ function TicketList() {
             </thead>
             <tbody className="divide-y divide-slate-100">
               {filteredTickets.map((ticket) => (
-                <tr key={ticket.id} className="hover:bg-slate-50">
+                <tr
+                  key={ticket.id}
+                  onClick={() => setSelectedTicket(ticket)}
+                  className="hover:bg-slate-50 cursor-pointer"
+                >
                   <td className="px-6 py-4 text-sm text-slate-800">{ticket.customer}</td>
                   <td className="px-6 py-4 text-sm text-slate-600">{ticket.subject}</td>
                   <td className="px-6 py-4">
@@ -109,6 +115,8 @@ function TicketList() {
           </table>
         )}
       </div>
+
+      <TicketDetail ticket={selectedTicket} onClose={() => setSelectedTicket(null)} />
     </div>
   )
 }
