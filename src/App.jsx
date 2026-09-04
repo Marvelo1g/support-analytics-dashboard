@@ -1,5 +1,6 @@
 import Sidebar from './components/Sidebar'
 import Header from './components/Header'
+import TicketList from './components/TicketList'
 
 function App() {
   return (
@@ -8,9 +9,7 @@ function App() {
       <div className="flex-1 flex flex-col">
         <Header />
         <main className="flex-1 p-8">
-          <div className="bg-white rounded-xl border border-slate-200 p-8 text-slate-400 text-center">
-            Ticket list will go here (Day 4)
-          </div>
+          <TicketList />
         </main>
       </div>
     </div>
