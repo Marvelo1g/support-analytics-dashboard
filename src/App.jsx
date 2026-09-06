@@ -1,6 +1,6 @@
 import Sidebar from './components/Sidebar'
 import Header from './components/Header'
-import TicketList from './components/TicketList'
+import Dashboard from './pages/Dashboard'
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <div className="flex-1 flex flex-col">
         <Header />
         <main className="flex-1 p-8">
-          <TicketList />
+          <Dashboard />
         </main>
       </div>
     </div>
