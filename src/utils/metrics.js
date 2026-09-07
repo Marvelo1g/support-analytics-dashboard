@@ -29,3 +29,18 @@ export function getResolvedTodayCount(tickets) {
     )
   }).length
 }
+
+
+
+export function getStatusBreakdown(tickets) {
+  const counts = { open: 0, pending: 0, resolved: 0, closed: 0 }
+  tickets.forEach((t) => {
+    if (counts[t.status] !== undefined) counts[t.status]++
+  })
+  return [
+    { name: 'Open', value: counts.open, color: '#EF4444' },
+    { name: 'Pending', value: counts.pending, color: '#F59E0B' },
+    { name: 'Resolved', value: counts.resolved, color: '#14B8A6' },
+    { name: 'Closed', value: counts.closed, color: '#94A3B8' },
+  ]
+}

@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import { Search } from 'lucide-react'
-import { useTickets } from '../hooks/useTickets'
 import TicketDetail from './TicketDetail'
 
 const statusStyles = {
@@ -18,27 +17,10 @@ function formatDate(isoString) {
   })
 }
 
-function TicketList() {
-  const { tickets, loading, error } = useTickets()
+function TicketList({ tickets }) {
   const [searchTerm, setSearchTerm] = useState('')
   const [statusFilter, setStatusFilter] = useState('all')
   const [selectedTicket, setSelectedTicket] = useState(null)
-
-  if (loading) {
-    return (
-      <div className="bg-white rounded-xl border border-slate-200 p-8 text-slate-400 text-center">
-        Loading tickets...
-      </div>
-    )
-  }
-
-  if (error) {
-    return (
-      <div className="bg-white rounded-xl border border-red-200 p-8 text-red-500 text-center">
-        Could not load tickets: {error}. Is json-server running on port 3001?
-      </div>
-    )
-  }
 
   const filteredTickets = tickets.filter((ticket) => {
     const matchesStatus = statusFilter === 'all' || ticket.status === statusFilter

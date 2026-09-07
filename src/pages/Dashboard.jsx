@@ -1,5 +1,6 @@
 import { useTickets } from '../hooks/useTickets'
 import SummaryCards from '../components/SummaryCards'
+import StatusChart from '../components/StatusChart'
 import TicketList from '../components/TicketList'
 
 function Dashboard() {
@@ -24,6 +25,9 @@ function Dashboard() {
   return (
     <div className="space-y-6">
       <SummaryCards tickets={tickets} />
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+        <StatusChart tickets={tickets} />
+      </div>
       <TicketList tickets={tickets} />
     </div>
   )
