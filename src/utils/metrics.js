@@ -44,3 +44,35 @@ export function getStatusBreakdown(tickets) {
     { name: 'Closed', value: counts.closed, color: '#94A3B8' },
   ]
 }
+
+
+
+export function getResponseTimeTrend(tickets) {
+  const grouped = {}
+  tickets.forEach((t) => {
+    if (!t.first_response_at) return
+    const key = new Date(t.created_at).toISOString().split('T')[0]
+    const hours = (new Date(t.first_response_at) - new Date(t.created_at)) / (1000 * 60 * 60)
+    if (!grouped[key]) grouped[key] = []
+    grouped[key].push(hours)
+  })
+  return Object.entries(grouped)
+    .map(([date, hoursArray]) => ({
+      date,
+      avgHours: hoursArray.reduce((a, b) => a + b, 0) / hoursArray.length,
+    }))
+    .sort((a, b) => new Date(a.date) - new Date(b.date))
+}
+
+
+export function getTicketsOverTime(tickets) {
+  const counts = {}
+  tickets.forEach((t) => {
+    const date = new Date(t.created_at)
+    const key = date.toISOString().split('T')[0]
+    counts[key] = (counts[key] || 0) + 1
+  })
+  return Object.entries(counts)
+    .map(([date, count]) => ({ date, count }))
+    .sort((a, b) => new Date(a.date) - new Date(b.date))
+}

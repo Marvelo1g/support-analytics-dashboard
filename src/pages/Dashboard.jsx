@@ -1,6 +1,8 @@
 import { useTickets } from '../hooks/useTickets'
 import SummaryCards from '../components/SummaryCards'
 import StatusChart from '../components/StatusChart'
+import TimeChart from '../components/TimeChart'
+import ResponseTimeChart from '../components/ResponseTimeChart'
 import TicketList from '../components/TicketList'
 
 function Dashboard() {
@@ -27,7 +29,9 @@ function Dashboard() {
       <SummaryCards tickets={tickets} />
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
         <StatusChart tickets={tickets} />
+        <TimeChart tickets={tickets} />
       </div>
+      <ResponseTimeChart tickets={tickets} />
       <TicketList tickets={tickets} />
     </div>
   )
