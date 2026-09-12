@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useCallback } from 'react'
 
 const API_URL = 'http://localhost:3001/tickets'
 
@@ -7,7 +7,9 @@ export function useTickets() {
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
 
-  useEffect(() => {
+  const fetchTickets = useCallback(() => {
+    setLoading(true)
+    setError(null)
     fetch(API_URL)
       .then((res) => {
         if (!res.ok) throw new Error('Failed to fetch tickets')
@@ -23,5 +25,9 @@ export function useTickets() {
       })
   }, [])
 
-  return { tickets, loading, error }
+  useEffect(() => {
+    fetchTickets()
+  }, [fetchTickets])
+
+  return { tickets, loading, error, refetch: fetchTickets }
 }
