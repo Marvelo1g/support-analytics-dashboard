@@ -67,34 +67,36 @@ function TicketList({ tickets }) {
             No tickets match your search or filter.
           </div>
         ) : (
-          <table className="w-full text-left">
-            <thead className="bg-slate-50 border-b border-slate-200">
-              <tr>
-                <th className="px-6 py-3 text-xs font-medium text-slate-500 uppercase">Customer</th>
-                <th className="px-6 py-3 text-xs font-medium text-slate-500 uppercase">Subject</th>
-                <th className="px-6 py-3 text-xs font-medium text-slate-500 uppercase">Status</th>
-                <th className="px-6 py-3 text-xs font-medium text-slate-500 uppercase">Created</th>
-              </tr>
-            </thead>
-            <tbody className="divide-y divide-slate-100">
-              {filteredTickets.map((ticket) => (
-                <tr
-                  key={ticket.id}
-                  onClick={() => setSelectedTicket(ticket)}
-                  className="hover:bg-slate-50 cursor-pointer"
-                >
-                  <td className="px-6 py-4 text-sm text-slate-800">{ticket.customer}</td>
-                  <td className="px-6 py-4 text-sm text-slate-600">{ticket.subject}</td>
-                  <td className="px-6 py-4">
-                    <span className={`px-2.5 py-1 rounded-full text-xs font-medium capitalize ${statusStyles[ticket.status]}`}>
-                      {ticket.status}
-                    </span>
-                  </td>
-                  <td className="px-6 py-4 text-sm text-slate-500 font-mono">{formatDate(ticket.created_at)}</td>
+          <div className="overflow-x-auto">
+            <table className="w-full text-left">
+              <thead className="bg-slate-50 border-b border-slate-200">
+                <tr>
+                  <th className="px-6 py-3 text-xs font-medium text-slate-500 uppercase">Customer</th>
+                  <th className="px-6 py-3 text-xs font-medium text-slate-500 uppercase">Subject</th>
+                  <th className="px-6 py-3 text-xs font-medium text-slate-500 uppercase">Status</th>
+                  <th className="px-6 py-3 text-xs font-medium text-slate-500 uppercase hidden sm:table-cell">Created</th>
                 </tr>
-              ))}
-            </tbody>
-          </table>
+              </thead>
+              <tbody className="divide-y divide-slate-100">
+                {filteredTickets.map((ticket) => (
+                  <tr
+                    key={ticket.id}
+                    onClick={() => setSelectedTicket(ticket)}
+                    className="hover:bg-slate-50 cursor-pointer"
+                  >
+                    <td className="px-6 py-4 text-sm text-slate-800 whitespace-nowrap">{ticket.customer}</td>
+                    <td className="px-6 py-4 text-sm text-slate-600">{ticket.subject}</td>
+                    <td className="px-6 py-4">
+                      <span className={`px-2.5 py-1 rounded-full text-xs font-medium capitalize ${statusStyles[ticket.status]}`}>
+                        {ticket.status}
+                      </span>
+                    </td>
+                    <td className="px-6 py-4 text-sm text-slate-500 font-mono hidden sm:table-cell">{formatDate(ticket.created_at)}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
         )}
       </div>
 
