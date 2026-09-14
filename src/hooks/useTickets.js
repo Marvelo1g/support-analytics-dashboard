@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from 'react'
 
-const API_URL = 'http://localhost:3001/tickets'
+const API_URL = '/tickets.json'
 
 export function useTickets() {
   const [tickets, setTickets] = useState([])
