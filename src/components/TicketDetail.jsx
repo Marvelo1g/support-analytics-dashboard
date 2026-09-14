@@ -19,14 +19,14 @@ function TicketDetail({ ticket, onClose }) {
 
   return (
     <div className="fixed inset-0 z-50 flex justify-end">
-      <div className="absolute inset-0 bg-black/40" onClick={onClose} />
-      <div className="relative w-full max-w-md bg-white h-full shadow-xl overflow-y-auto">
+      <div className="absolute inset-0 bg-black/40 animate-[fadeIn_0.2s_ease-out]" onClick={onClose} />
+      <div className="relative w-full max-w-md bg-white h-full shadow-2xl overflow-y-auto animate-[slideIn_0.25s_ease-out]">
         <div className="sticky top-0 bg-white border-b border-slate-200 px-6 py-4 flex items-start justify-between">
           <div>
             <h3 className="text-lg font-semibold text-slate-800">{ticket.subject}</h3>
             <p className="text-sm text-slate-500">{ticket.customer}</p>
           </div>
-          <button onClick={onClose} className="text-slate-400 hover:text-slate-600">
+          <button onClick={onClose} className="text-slate-400 hover:text-slate-600 transition-colors">
             <X size={20} />
           </button>
         </div>

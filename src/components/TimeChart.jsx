@@ -13,7 +13,7 @@ function TimeChart({ tickets }) {
   }))
 
   return (
-    <div className="bg-white rounded-xl border border-slate-200 p-5">
+    <div className="bg-white rounded-xl border border-slate-200 shadow-sm p-5">
       <h3 className="text-sm font-medium text-slate-600 mb-4">Tickets Created Over Time</h3>
       <ResponsiveContainer width="100%" height={260}>
         <BarChart data={data} margin={{ top: 10, right: 10, left: -10, bottom: 0 }}>

@@ -61,7 +61,7 @@ function TicketList({ tickets }) {
         </div>
       </div>
 
-      <div className="bg-white rounded-xl border border-slate-200 overflow-hidden">
+      <div className="bg-white rounded-xl border border-slate-200 shadow-smoverflow-hidden">
         {filteredTickets.length === 0 ? (
           <div className="p-8 text-center text-slate-400 text-sm">
             No tickets match your search or filter.

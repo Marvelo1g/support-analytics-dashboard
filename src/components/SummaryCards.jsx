@@ -3,7 +3,7 @@ import { getTotalTickets, getOpenCount, getAverageResponseHours, getResolvedToda
 
 function SummaryCard({ icon: Icon, label, value, accent }) {
   return (
-    <div className="bg-white rounded-xl border border-slate-200 p-5 flex items-center gap-4">
+    <div className="bg-white rounded-xl border border-slate-200 shadow-sm p-5 flex items-center gap-4 transition-all hover:shadow-md hover:-translate-y-0.5">
       <div className={`w-10 h-10 rounded-lg flex items-center justify-center ${accent}`}>
         <Icon size={20} />
       </div>

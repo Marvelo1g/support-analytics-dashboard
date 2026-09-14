@@ -5,7 +5,7 @@ function StatusChart({ tickets }) {
   const data = getStatusBreakdown(tickets)
 
   return (
-    <div className="bg-white rounded-xl border border-slate-200 p-5">
+    <div className="bg-white rounded-xl border border-slate-200 shadow-sm p-5">
       <h3 className="text-sm font-medium text-slate-600 mb-4">Tickets by Status</h3>
       <ResponsiveContainer width="100%" height={260}>
         <PieChart>
